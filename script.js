@@ -48,10 +48,28 @@
 
 // declaration();
 
-const functionExpression = function() {
-    console.log("expression")
-}
-functionExpression();
+// const functionExpression = function() {
+//     console.log("expression")
+// }
+// functionExpression;
+
+/////////////// no. 1
+// let age = prompt("What is your age?");
+// if (age) { 
+//     if (age > 18) {
+//         alert("Powering on. Enjoy the drive!");
+//     } else if (age < 18) {
+//         alert("Sorry, you are too young to drive. Powering off");
+//     } else if (age === 18) {
+//         alert("Congratulations on your first year of driving. Enjoy the ride!");
+//     }
+// }
+////////
+
+    var age = prompt("What is your age?");
+    if (number(age) < 18) {
+        alert("You too young to drive!");
+    }
 
 
- 
+
